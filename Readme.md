@@ -8,18 +8,18 @@ Esta aplicación web permite a los usuarios buscar términos en Wikipedia y ver 
 wikipedia-search-app/
 │
 ├── public/
-│ ├── index.html # Archivo principal HTML
-│ ├── styles.css # Archivo CSS para los estilos
-│ └── script.js # Archivo JavaScript para la lógica del cliente
+│ ├── index.html
+│ ├── styles.css
+│ └── script.js
 │
 ├── src/
-│ ├── save_search.php # Archivo PHP para guardar el historial de búsquedas
-│ └── config.php # Archivo PHP para la configuración de la base de datos
+│ ├── save_search.php
+│ └── config.php
 │
 ├── db/
-│ └── init.sql # Script SQL para inicializar la base de datos y crear las tablas
+│ └── init.sql
 │
-└── README.md # Documentación del proyecto
+└── README.md
 
 
 ## Configuración
