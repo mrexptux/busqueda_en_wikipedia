@@ -24,9 +24,9 @@ wikipedia-search-app/
 
 ## Configuración
 1. Clonar el repositorio.
-2. Crear la base de datos ejecutando el script `db/init.sql`.
+2. Crear la base de datos ejecutando el script `db/historial_busqueda.sql`.
 3. Configurar los parámetros de la base de datos en `src/config.php`.
-4. Asegurarse de que el servidor web esté configurado para servir archivos PHP y acceder a la carpeta `public`.
+4. Asegurarse de que el servidor web esté configurado para servir archivos PHP (XAMPP) y acceder a la carpeta `public`.
 
 ## Uso
 Abrir `public/index.html` en un navegador web. Ingresar un término de búsqueda y ver los resultados. Las búsquedas se guardarán automáticamente en la base de datos.
