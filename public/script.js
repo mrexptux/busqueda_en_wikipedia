@@ -13,18 +13,18 @@ function buscarWikipedia() {
         return;
     }
 
-    // Función para validar el término de búsqueda, incluyendo la ñ y caracteres acentuados ya que tenemos caracteres con ñ o acentos.
+    //Pol: Función para validar el término de búsqueda, incluyendo la ñ y caracteres acentuados ya que tenemos caracteres con ñ o acentos.
     function validarBusquedaTermino(termino) {
         const regex = /^[a-zA-Z0-9\sáéíóúÁÉÍÓÚñÑüÜ]+$/;
         return regex.test(termino);
     }
 
-    // Funcion para limpiar el termino de busqueda de signos raros o extraños que nos puedan inyectar.
+    //Pol: Funcion para limpiar el termino de busqueda de signos raros o extraños que nos puedan inyectar.
     function limpiarTerminoBusqueda(termino) {
         return termino.replace(/[^a-zA-Z0-9\sáéíóúÁÉÍÓÚñÑüÜ]/g, '');
     }
 
-    //Antes de realizar la llamada a la API vamos hacer una comprobacion del valor del input, para evitar inyecciones SQL.
+    //Pol: Antes de realizar la llamada a la API vamos hacer una comprobacion del valor del input, para evitar inyecciones SQL.
     if (validarBusquedaTermino(terminoBusqueda)) {
 
         const terminoBusquedaLimpio = limpiarTerminoBusqueda(terminoBusqueda);
@@ -59,12 +59,12 @@ function buscarWikipedia() {
                     link.target = '_blank';
                     link.textContent = 'Leer más';
 
-                    //Para finalizar y en orden añadiremos los 3 elementos que seran el titulo del termino devuelto por la api el snippet 
+                    //Pol: Para finalizar y en orden añadiremos los 3 elementos que seran el titulo del termino devuelto por la api el snippet 
                     resultadoElementos.appendChild(title);
                     resultadoElementos.appendChild(snippet);
                     resultadoElementos.appendChild(link);
 
-                    resultadoDiv.appendChild(resultadoElementos); // Introducimos la estructura creada anteriormente en el DIV que queremos.
+                    resultadoDiv.appendChild(resultadoElementos); //Pol: Al acabar de crear elementos DOM añadimos esos elementos al DIV padre que es resultadoDIV.
 
 
                 });
