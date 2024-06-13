@@ -1,3 +1,38 @@
+//Pol: Creamos una funcion que mostrara las alertas en caso de que algo falle.
+function mostrarAlerta(error) {
+
+    var alerta = document.getElementById('alerta');
+
+    //Pol: Eliminamos cualquier mensaje anterior para que no se los solape con mensajes anteriores.
+    var mensajeAnterior = alerta.querySelector('#texto');
+    if (mensajeAnterior) {
+        mensajeAnterior.parentNode.removeChild(mensajeAnterior);
+    }
+
+    //Pol: Creamos un nuevo elemento <p> y le asignamos el texto de error
+    var mensaje = document.createElement('p');
+    mensaje.id = 'texto';
+    mensaje.textContent = error;
+
+    //Pol: Agregamos el mensaje al contenedor de la alerta
+    alerta.querySelector('.alerta-mensaje').appendChild(mensaje);
+
+    alerta.style.display = 'block';
+    setTimeout(function () {
+        alerta.style.opacity = '1';
+    }, 10); //Pol: Agregamos un pequeño retraso para asegurarnos de que la transición se aplique correctamente
+}
+
+//Pol: Funcion para cerrar la alerta.
+function cerrarAlerta() {
+    var alerta = document.getElementById('alerta');
+    alerta.style.opacity = '0';
+    setTimeout(function () {
+        alerta.style.display = 'none';
+    }, 300); // Duración de la transición en milisegundos
+}
+
+//Pol: Funcion para realizar la busqueda en wikipedia.
 function buscarWikipedia() {
 
     //POL: Hacemos referencia al div del resultado para posteriormente poder cargar los resultados.
@@ -8,7 +43,7 @@ function buscarWikipedia() {
 
     if (terminoBusqueda.trim() === '') { //POL: Antes de realizar lo siguiente lo que vamos hacer es comprobar que terminoBusqueda que es el INPUT tiene valor.
 
-        alert('¡Por favor ingrese un término de búsqueda!');
+        mostrarAlerta('¡Por favor ingrese un término de búsqueda!');
         resultadoDiv.innerHTML = '';
         return;
     }
@@ -77,8 +112,7 @@ function buscarWikipedia() {
 
     } else {
 
-        alert("Término de búsqueda no válido.");
-
+        mostrarAlerta('Término de búsqueda no válido.');
     }
 
 
@@ -97,3 +131,6 @@ function guardamosterminoBusqueda(termino) {
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));
 }
+
+
+
