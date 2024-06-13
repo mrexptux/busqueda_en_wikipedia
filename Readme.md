@@ -25,10 +25,7 @@ Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://
 
 Aquí se muestra cómo se utiliza nuestro proyecto:
 
-![Captura de pantalla](images/imagenAplicativo.png)
-
-![Captura de pantalla](images/imagenAplicativo.png)
-
+![Captura de pantalla](public/images/imagenAplicativo.png)
 
 
 
