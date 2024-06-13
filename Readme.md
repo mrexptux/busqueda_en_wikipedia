@@ -46,7 +46,7 @@ busqueda_en_wikipedia/
 │ ├── db
 │ │ ├── guardar_busqueda.php
 │ │ └── config.php
-│ ├── .env.example
-│ └── env.php
+├──.env.example
+├── env.php
 └── README.md
 =======
