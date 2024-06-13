@@ -38,4 +38,3 @@ busqueda_en_wikipedia/
     ├── guardar_busqueda.php
     └── init.sql
 =======
-
