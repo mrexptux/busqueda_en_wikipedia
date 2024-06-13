@@ -4,8 +4,7 @@
 
 La aplicación web Wikipedia Search permite a los usuarios realizar búsquedas de términos en Wikipedia y visualizar los resultados directamente en la misma página. Además, guarda automáticamente un historial de búsquedas en una base de datos SQL mediante el uso de PHP.
 
-```markdown
-# Estructura del Proyecto
+## Estructura del Proyecto
 
 ```plaintext
 wikipedia-search-app/
@@ -18,6 +17,8 @@ wikipedia-search-app/
 ├── config.php
 └── db/
     └── init.sql
+
+
 
 ## Configuración
 
