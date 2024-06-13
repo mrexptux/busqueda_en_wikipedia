@@ -33,6 +33,3 @@ wikipedia-search-app/
 ├── config.php
 └── db/
     └── init.sql
-
-
-
