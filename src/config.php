@@ -1,7 +1,7 @@
 <?php
 
 //Llamamos a las credenciales de .env y asi poder configurar correctamente los parametros de conexion.
-require_once('../env.php');
+require_once('../../env.php');
 
 //Parametros de configuracion de archivo .env
 $db_host = getenv('DB_HOST');

@@ -120,7 +120,7 @@ function buscarWikipedia() {
 
 //POL: Funcion que hace una lamada fetch indicandole donde tiene que llamar a la api y los datos que le pasaremos y que metodo es, en este caso POST ya que enviamos datos y no solicitamos datos si solicitaramos datos utilizariamos GET.
 function guardamosterminoBusqueda(termino) {
-    fetch('../db/guardar_busqueda.php', {
+    fetch('../src/db/guardar_busqueda.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

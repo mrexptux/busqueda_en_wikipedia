@@ -1,6 +1,6 @@
 <?php
 
-include("../src/config.php");
+include("../../src/config.php");
 
 //POL: Leemos el cuerpo recibido por POST y lo transformamos a array, posteriormente elegimos el parametro recibido por POST.
 $data = json_decode(file_get_contents('php://input'), true);
