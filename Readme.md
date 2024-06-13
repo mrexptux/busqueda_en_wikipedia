@@ -19,12 +19,11 @@ La aplicación web Wikipedia Search permite a los usuarios realizar búsquedas d
 
 ## Uso
 
-Abrir `public/index.html` en un navegador web. Ingresar un término de búsqueda y ver los resultados. Las búsquedas se guardarán automáticamente en la base de datos.
+Abrir `public/index.php` en un navegador web. Ingresar un término de búsqueda y ver los resultados. Las búsquedas se guardarán automáticamente en la base de datos.
 
 ## Autor / Desarrollador
 
-Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
-
+Desarrollado por `Pol Aguilar Cardus`. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
 
 ## Estructura del Proyecto
 
@@ -51,7 +50,3 @@ busqueda_en_wikipedia/
 │ └── env.php
 └── README.md
 =======
-
-
-
-
