@@ -25,15 +25,14 @@ Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://
 ```plaintext
 wikipedia-search-app/
 ├── public/
-│ ├── index.html
-│ ├── styles.css
-│ └── script.js
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 ├── src/
 ├── save_search.php
 ├── config.php
 └── db/
-└── init.sql
-
+    └── init.sql
 
 
 
