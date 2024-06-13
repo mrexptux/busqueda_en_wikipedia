@@ -29,7 +29,7 @@ busqueda_en_wikipedia/
 │   ├── styles.css
 │   └── script.js
 ├── src/
-├── save_search.php
-├── config.php
+│   └── config.php
 └── db/
+    ├── guardar_busqueda.php
     └── init.sql
