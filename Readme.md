@@ -23,7 +23,7 @@ Abrir `public/index.php` en un navegador web. Ingresar un término de búsqueda 
 
 ## Autor / Desarrollador
 
-Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
+Desarrollado por `Pol Aguilar Cardus`. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
 
 
 ## Estructura del Proyecto
@@ -44,7 +44,3 @@ busqueda_en_wikipedia/
     ├── guardar_busqueda.php
     └── init.sql
 =======
-
-
-
-
