@@ -15,15 +15,12 @@
         <button onclick="buscarWikipedia()">Buscar</button>
         <div id="resultado"></div>
     </div>
-
-
     <!-- Contenedor de la alerta -->
     <div id="alerta" class="alerta-contenedor">
         <div class="alerta-mensaje">
             <span class="cerrar" onclick="cerrarAlerta()">&times;</span>
         </div>
     </div>
-
     <script src="js/script.js"></script>
 </body>
 </html>
