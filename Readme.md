@@ -20,6 +20,18 @@ Abrir `public/index.html` en un navegador web. Ingresar un término de búsqueda
 
 Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
 
+
+## Ejemplo de Uso
+
+Aquí se muestra cómo se utiliza nuestro proyecto:
+
+![Captura de pantalla](images/imagenAplicativo.png)
+
+![Captura de pantalla](images/imagenAplicativo.png)
+
+
+
+
 ## Estructura del Proyecto
 
 ```plaintext
