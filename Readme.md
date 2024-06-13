@@ -14,7 +14,7 @@ La aplicación web Wikipedia Search permite a los usuarios realizar búsquedas d
 
 1. Clonar el repositorio: `git clone https://github.com/tu-usuario/busqueda_en_wikipedia.git`
 2. Crear la base de datos `historial_busqueda` y ejecutar el script `db/init.sql`.
-3. Configurar los parámetros de la base de datos creando un fichero .env en la raiz usando de ejemplo .env.example y modificando el nombre a .env
+3. Configurar los parámetros de la base de datos creando un fichero .env en la raiz usando de ejemplo `.env.example` y modificando el nombre a `.env`
 4. Asegurarse de que el servidor web esté configurado para servir archivos PHP (XAMPP) y acceder a la carpeta `public`.
 
 ## Uso
