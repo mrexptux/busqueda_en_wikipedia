@@ -6,7 +6,6 @@ La aplicación web Wikipedia Search permite a los usuarios realizar búsquedas d
 
 ## Estructura del Proyecto
 
-```plaintext
 wikipedia-search-app/
 ├── public/
 │   ├── index.html
