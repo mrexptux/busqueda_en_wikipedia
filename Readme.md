@@ -19,7 +19,6 @@ Abrir `public/index.html` en un navegador web. Ingresar un término de búsqueda
 ## Autor / Desarrollador
 
 Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
-<<<<<<< HEAD
 
 ## Estructura del Proyecto
 
