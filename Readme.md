@@ -23,7 +23,7 @@ Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://
 ## Estructura del Proyecto
 
 ```plaintext
-wikipedia-search-app/
+busqueda_en_wikipedia/
 ├── public/
 │   ├── index.html
 │   ├── styles.css
