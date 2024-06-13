@@ -21,6 +21,8 @@ wikipedia-search-app/
 └── db/
     └── init.sql
 
+
+
 ## Configuración
 
 1. Clonar el repositorio: git clone [https://github.com/tu-usuario/busqueda_en_wikipedia.git](https://github.com/mrexptux/busqueda_en_wikipedia.git)  
