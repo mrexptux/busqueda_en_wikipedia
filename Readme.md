@@ -6,6 +6,7 @@ La aplicación web Wikipedia Search permite a los usuarios realizar búsquedas d
 
 ## Estructura del Proyecto
 
+```plaintext
 wikipedia-search-app/
 ├── public/
 │   ├── index.html
@@ -16,7 +17,6 @@ wikipedia-search-app/
 ├── config.php
 └── db/
     └── init.sql
-
 
 
 ## Configuración
