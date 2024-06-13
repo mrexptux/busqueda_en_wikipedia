@@ -5,6 +5,11 @@
 La aplicación web Wikipedia Search permite a los usuarios realizar búsquedas de términos en Wikipedia y visualizar los resultados directamente en la misma página. Además, guarda automáticamente un historial de búsquedas en una base de datos SQL mediante el uso de PHP.
 
 
+![Captura de pantalla](public/images/imagenAplicativo.png)
+
+![Captura de pantalla](public/images/imagenAplicativo1.png)
+
+
 ## Configuración
 
 1. Clonar el repositorio: `git clone https://github.com/tu-usuario/busqueda_en_wikipedia.git`
@@ -19,13 +24,6 @@ Abrir `public/index.html` en un navegador web. Ingresar un término de búsqueda
 ## Autor / Desarrollador
 
 Desarrollado por [Pol Aguilar Cardus]. Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/pol-aguilar-cardús-2930388b).
-
-
-## Ejemplo de Uso
-
-Aquí se muestra cómo se utiliza nuestro proyecto:
-
-![Captura de pantalla](public/images/imagenAplicativo.png)
 
 
 
@@ -47,3 +45,7 @@ busqueda_en_wikipedia/
     ├── guardar_busqueda.php
     └── init.sql
 =======
+
+
+
+
